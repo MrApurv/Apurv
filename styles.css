@@ -13,7 +13,7 @@ hr.new1 {
 }
 
 /* Background Image in Whole page  */
-body {
+ body {
     background-image: url("image1.avif");
     background-color: #cccccc;
     background-size: cover;
@@ -24,7 +24,13 @@ body {
 } 
 
 .div2{
-  margin-top: 12%;
+  margin-top: 5%;
+}
+
+.hcol {
+  background-image: url("image1.avif");
+    background-color: #cccccc;
+    background-size: cover;
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -81,3 +87,59 @@ body {
 
 
   /* ----------------------------------------------------------------------------------------- */
+
+
+
+  /* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+table.mix {border-style: dotted dashed solid double;}
+
+.mix {
+  max-width: 100%;
+  border: #000000;
+}
